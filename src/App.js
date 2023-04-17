@@ -1,5 +1,6 @@
 
 import './App.css';
+import BannerSlice from './components/BannerSlice';
 import Feedback from './components/Feedback';
 import Footer from './components/Footer';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
  
       <NavBar />
+      <BannerSlice />
      
       <main>
         <Product />

@@ -2,8 +2,8 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>
-        <nav className='w-10/12 mx-auto flex justify-between items-center '>
+    <div className='sticky top-0 bg-white z-10'>
+        <nav className='w-9/12 mx-auto flex justify-between items-center '>
          
             <img className='w-[50px] h-[50px]' src="https://www.jedishop.eu/_obchody/www.jedishop.cz/prilohy/433/shrek-bendyfigs-ohebna-figure-shrek-15-cm.jpg.big.jpg" alt=""  />
         

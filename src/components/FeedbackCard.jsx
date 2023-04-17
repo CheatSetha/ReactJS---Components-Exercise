@@ -3,7 +3,7 @@ import React from "react"
 const FeedbackCard = () => {
 	return (
 		
-			<div className='card-fb flex space-x-3 shadow-2xl p-3 w-[47%]'>
+			<div className='card-fb flex space-x-3 shadow-2xl p-3 w-[47%] rounded-md'>
 				<img
 					className='w-[100px] rounded-[50%]'
 					src='https://i.pinimg.com/736x/1d/81/e0/1d81e065de302045e5d8709bef235ac4.jpg'
